@@ -1,0 +1,1020 @@
+
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+}
+.container-in{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+    width: 90%;
+    z-index: 1;
+    position: absolute; 
+    top:10px;
+    color:#fff;
+    
+}
+.head{
+    width:100%;
+    height:8vh;
+    position:relative;
+    border-bottom: 2px solid #fff;
+    margin:5vh 0px 5vh 0px;
+    cursor: pointer;
+}
+.head .fb{
+    float:right;
+}
+
+.head span a{
+    padding:0px 12px 0px 10px;
+    font-size: 17px;
+    color:#fff;
+}
+.head span{
+  padding-left: 7px;
+}
+/* nav start*/
+.navbar{
+  width:100%;
+}
+
+.button{
+  border:none;
+}
+
+.navbar-brand{
+  width:auto;
+}
+
+.navbar-brand img{
+  width: 50%;
+  height: auto;
+}
+.collapse ul{
+  float: right;
+  margin-top: 15px;
+ }
+.navbar-nav li a{
+  text-align: center;
+color: #fff;
+padding: 15px;
+}
+.navbar-nav li a:after{
+  content: "";
+  position:absolute;
+  background-color: rgb(120, 179, 32);
+  height:2px;
+  width:0px;
+  left: 10px;
+  bottom: -10px;
+  transition-duration: .5s;
+}
+
+.navbar-nav li a:hover:after{
+  width: 80%;
+}
+ .navbar-nav li:hover a{
+  color:rgb(120, 179, 32);
+  text-decoration: none;
+ }
+ul li{
+  list-style: none;
+  position: relative;
+  width: auto;
+}
+
+.navbar-header button{
+  color:#fff;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 95%;
+}
+
+
+  /*image section*/
+  
+  .carousel-inner .item{
+    width:100%;
+    height:auto;
+  
+  }
+  
+  .item .text{
+    width:100%;
+    text-align: center;
+    margin-top: 27%;
+  }
+  .text button{
+    padding:1% 4% 1% 4%;
+    background-color: rgb(120, 179, 32);
+    border: none;
+    border-radius: 30px;
+    
+  }
+  .item img{
+    background-size: cover;
+    width:100%;
+    height:100%;
+    filter:grayscale(80%);
+  }
+  .text{
+    position: absolute;
+    top:0;
+    color:#fff;
+ }
+
+  /*animation text slide*/
+
+ .text h1{
+  font-size: 50px;
+  font-weight: bold;
+  animation-duration:2.3s;
+  animation-name:deep;
+  padding-bottom:1.2%;
+ }
+ @keyframes deep{
+   from{
+    margin-left:-100%;
+   }
+   to{
+    margin-left:0%;
+   }
+ }
+ .text p{
+  text-align:center;
+ }
+ .text p , button{
+  padding-bottom:1%;
+  font-size: 14px;
+  font-weight: bold;
+  animation-delay:.6s;
+  animation-duration:.5s;
+  animation-name:btn;
+  animation-timing-function: ease-in;
+ }
+ @keyframes btn{
+  from{
+     margin-top:20px;
+  }
+  to{
+    margin-top:0%;
+  }
+ } 
+
+ /* second section start*/
+ .second{
+  width:100%;
+ }
+ .second h1{
+  margin-top: 45px;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 29px;
+ }
+ .second p{
+  text-align: center;
+ }
+ hr{
+  width:5%;
+  height: 2px;
+  background-color: orange;
+  margin-left:47.5%;
+ }
+ 
+ .container-fluid{
+    width:100%;
+    position: relative;
+    margin-bottom: 10vh;
+ }
+ .row{
+  margin: 20px 5% 0px 5%;
+ }
+ .pic img{
+  width:100%;
+  height:auto;
+  position: relative;
+  
+ }
+ .col-lg-4{
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  
+ }
+ 
+  /* hover effect */
+  .pic:hover img{
+    z-index: 2;
+    position:relative;
+    transform: scale(1.3);
+    transition-duration:.5s;
+  }
+                 /* logo on the pic*/
+
+   .logo .mov{
+    display: flex;
+    position: absolute;
+    bottom:0;
+    justify-content: space-between;
+   }
+   .icon img{
+    width:16.5%;
+   }
+   .mov .icon{
+    position: relative;
+    width:29vw;
+    height: auto;
+    z-index: 2;
+   }
+   .icon h2{
+    font-size:1.8rem;
+    font-weight:bold;
+    color:#fff;
+   }
+
+        /* third section start*/
+   .girl img{
+    width:100%;
+    margin-top: 30px;
+   }
+   .third-section{
+    background-color:rgb(250, 246, 246);
+   }
+   /*.cir-img{
+    width:30%;
+    border: 3.5px solid rgba(40, 172, 40, 0.659);
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+   }*/
+   .circal{
+    width:22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border:3.5px solid rgb(120, 179, 32);
+    border-radius: 100%;
+    float: right;
+    position: relative;
+    justify-content: start;
+    margin:0 35px 0 20px;
+   }
+   .font-size{
+      margin-top: 40px;
+   }
+   .font-size .left{
+    float:left;
+    margin:0 20px 0 35px;
+   }
+   .circal img{
+      width:100%;
+      padding: 15px 15px 15px 15px;
+      background-size: cover;
+   }
+   .col-lg-4 .logo-text{
+     margin-top: 25%;
+   }
+  
+   .p p{
+    text-align: right;
+  }   
+   .font-size h1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+   }
+   .header-left h1,p{
+    text-align: left;
+   }
+   /*.circal1 img{
+    border:3px solid green;
+    padding: -40px;
+   }
+
+             /*OUR TRAINERS START*/
+   .our-trainers{
+    margin:50px 5% 0 5%;
+    text-align: center;
+   }
+   .our-trainers h1{
+     font-size: 30px;
+     font-weight: bolder;
+   }
+   .our-trainers p{
+    font-size: 16px;
+    letter-spacing:.4px;
+    text-align: center;
+    color:grey;
+   }
+   .our-trainers .img1 img{
+      width:100%;
+      background-size:cover;    
+   }  
+   .our-trainers .img1{
+      margin:15px;
+   }
+   .our-trainers .img1:hover{
+      box-shadow: 0 2px 4px 1px gainsboro;
+      filter:opacity(80%);
+      transition-duration: .5s;
+    
+   }
+   
+   .box-shadow{
+    padding:15px 3rem 15px 3rem;
+   }
+   .box-shadow h1{
+    margin-top:0px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: grey;
+   }
+   .box-shadow h6{
+    font-size: 16px;
+    font-weight:510;
+    color: grey;
+    margin: 13px 0 13px 0;
+   }
+   .box-shadow p{
+    padding-bottom: 20px;
+    font-size: 16px;
+   }
+   .space-between{
+    display: flex;
+    justify-content: space-between;
+   }
+
+/*OUR TRAINERS END*/
+
+       /* SIX PACK START */
+
+.six-pack{
+  background-image: url("../wallpaperflare.com_wallpaper.jpg");
+  background-position:top center;
+  background-attachment: fixed;
+  width:100%;
+  height:auto;
+  float: left;
+  margin:60px 0 60px 0;
+  overflow: hidden;
+}
+.six-pack-text{
+  margin:9% 6% 0 6%;
+  color:#fff;
+}
+.six-pack-text h4{
+  font-size: 15px;
+  letter-spacing: .5px;
+}
+.six-pack-text h1{
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+.six-pack-text p{
+  font-size: 14px;
+  letter-spacing: .5px;
+  font-weight:500;
+  padding-bottom: 30px;
+}
+
+
+.trainer-kg-smile{
+  width: auto;
+  height:150px;
+  float: left; 
+  margin-bottom: 10vh;
+  margin: 5px;
+}
+
+.rating img{
+  width:50px;
+  padding-bottom: 15px;
+}
+.trainer-kg-smile span{
+  font-size: 40px;
+  padding-left: 10px;
+  padding-right: 60px;
+}
+             /* SIX PACK END */
+          
+             /* photo gallery start*/
+.photo-gallery{
+  margin:0px 5% 10px 5%;
+}
+.photo-gallery h1{
+  position: relative;
+  text-align: center;
+  font-size:31px;
+  font-weight:bold;
+}
+.gallery-pic{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-pic .images{
+  width: calc(100% / 3);
+}
+
+.images img{
+  width:100%;
+  padding: 5px;
+}
+             /* photo gallery end*/
+
+             /*costomers-opinions start*/
+ 
+.costomers-opinions{
+  margin:12vh 5% 30px 5%;
+  text-align: center;
+}
+.hr{
+  display: flex;
+  justify-content: center;
+}
+.costomers-opinions p{
+  text-align: center;
+  font-size: 1.5rem;
+  color:gray;
+}
+.costomer-images{
+  padding:10px;
+  margin-top: 30px;
+}
+.costomer-images h1{
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.costomer-images h5{
+  font-size: 1.4rem;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+.costomer-images p{
+  font-size: 1.3rem;
+  color: grey;
+  font-style: italic;
+}
+.color{
+  background-color: black;
+}
+.costomer-images img{
+  width:100px;
+  border-radius:100%;
+}
+.hiden{
+  display: flex;
+}
+    /*costomers-opinions end*/
+
+   /*gym lady girl start*/
+.gymlady{
+  background-image:url("..//Screenshot\ 2023-06-03\ 055143.png");
+  background-position: top center;
+  width:100%;
+  height:500px;
+  color:#fff;
+  filter: brightness(80%);
+}
+.ladytext{
+  width:380px;
+  height:500px;
+  margin-left: 8%;
+}
+.ladytext h1{
+  font-weight: bold;
+  font-size: 2.6rem;
+  padding-top: 155px;
+}
+
+.ladytext h4{
+  font-weight: bold;
+  margin:18px 0 18px 0;
+  color:rgb(120, 179, 32);
+}
+.ladytext h5{
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+.ladytext button{
+  padding: 11px 29px;
+  background-color:rgb(120, 179, 32);
+  border-radius: 40px;
+  border: none;
+}
+   /*gym lady girl end*/
+
+  /*Latest News start*/
+  .news img{
+    width:100%;
+  }
+  .latest-news-second{
+    margin-top: 10vh;
+  }
+  .latest-news-second h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .latest-news-second p{
+    font-size: 1.5rem;
+    color: grey;
+    text-align: center;
+  }
+  .news{
+    padding: 0px 15px 15px 15px; 
+  }                                    /* hover */
+              .news:hover{
+                filter:opacity(90%);
+                transition-duration:1s;
+              } 
+
+  .news-text{
+    background-color: whitesmoke;
+    margin-top: -20px;
+  }
+  .news h1{
+    font-size: 1.5rem;
+    text-align: left;
+    padding:20px 10px 7px 22px;
+  }
+  .news p{
+    text-align: left;
+    padding:0px 10px 5px 22px;
+    font-size: 1.5rem;
+  }
+  .news-text hr{
+    width:80%;
+    height:2px;
+    margin-left: 7%;
+    padding-left: 5%;
+    background-color: gainsboro;
+  }
+  .news-text span{
+    color: rgb(120, 179, 32);
+    font-size: 1.5rem;
+  }
+  .span-yoga{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .pdd{
+    padding:0 20px 20px 20px;
+  }
+  /*Latest News end*/
+
+
+
+
+  /* footer start */
+
+  .footer{
+    width:100%;
+    height:auto;
+    background-color: rgb(40, 37, 37);
+    color:#fff;
+    position: relative;
+  }
+  .footer .row{
+    margin:8vh 8% 8vh 8%;
+  }
+  .footer ,.col-lg-5,.col-lg-3,.col-lg-4{
+    margin-top: 10vh;
+  }
+  .col-lg-5 img{
+    width:45%;
+    margin-bottom: 5vh;
+  }
+  .col-lg-5 h1{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .col-lg-5 hr{
+    width:100%;
+    margin: 0;
+    height:1px;
+    background-color: grey;
+    margin:7vh 0 6vh 0;
+  }
+  .col-lg-5 span{
+    font-size: 18px;
+  }
+  .col-lg-5 .padd{
+    padding: 15px;
+  }
+  .col-lg-3 h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 6vh;
+  }
+  .list2 a{
+    color:#fff;
+    cursor:pointer;
+  }
+  .list1 a{
+    color:#fff;
+    cursor: pointer;
+  }
+
+  .list .list1 ul li{
+    color:#fff;
+    padding-bottom: 20%;
+    font-size: 1.5rem;
+  }
+  .list .list1{
+    float: left;
+    margin-right: 4rem;
+  }
+  .list .list2 ul li{
+    
+    padding-bottom: 7%;
+    font-size: 1.5rem;
+  }
+  
+  .footer-img img{
+    width:calc(95% / 3);
+    margin-left: 1px;
+    margin-bottom: 6px;
+  }
+  .col-lg-4 h1{
+    font-weight: bold;
+    font-size: 2.3rem;
+  }
+  .col-lg-4{
+    margin-top: 58px;
+  }
+  .last{
+    width:100%;
+  }
+  .last p{
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    padding: 30px 0 30px 0;
+  }
+
+  /* footer end */
+
+  
+
+   /* media query start*/
+
+   /* width 1280px*/
+   @media only screen and (max-width:1280px){
+      .footer .row{
+         margin:0 3% 0 3%;  
+       }
+       
+   }
+   /* width 1200px */
+   @media only screen and (max-width:1200px){
+    .logo-text .circal{
+      float: none;
+      margin-left: 35%;
+    }
+    .logo-text h1,p{
+      text-align: center;
+    }
+    .p p{
+      text-align: center;
+    }
+    .logo-text{
+      margin-top: 0px;
+    }
+               /* third section*/
+            
+    
+    .col-lg-4 .logo-text{
+      margin-top: 7%;
+    }
+    .logo-text h1{
+      font-size: 2.2rem;
+    }
+
+          /*gym lady girl start*/
+    .ladytext{
+      width:60%;
+      height:auto;
+    }
+    /* six pack */
+    .six-pack-text p{
+       text-align: left;
+    }
+   }
+
+      /*width 990px*/
+   @media only screen and (max-width:992px){
+     .container{
+      width:90%;
+     }
+     .navbar-header{
+      width:25%;
+     }
+     .navbar-brand img{
+      width:80%;
+      transition-delay: 0s;
+     }
+     .text h1{
+      font-size: 45px;
+     }
+
+     /* logo on the pic */
+     .container-fluid .logo{
+      display: none;
+    }
+  
+              /*costomer openions*/
+            .costomer-images h1{
+              font-size: 1.5rem;
+              font-weight: bold;
+            }
+            .costomer-images h5{
+              font-size: 1.1rem;
+              font-family:'Arial Narrow Bold', sans-serif
+            }
+            .costomer-images p{
+              font-size: 1rem;
+              color: grey;
+              font-style: italic;
+            }
+            /*costomer openions end*/
+
+            /* icon start */
+            .icon{
+              display:block;
+            }
+            
+            /* logo */
+            .logo-text .circal{
+              margin-left:45%;
+              width:7rem;
+            }
+            .circal img{
+              padding:5px;
+            }
+
+                /* letest news */
+            .news{
+              padding: 0px;
+            } 
+          /*gym lady girl start*/
+    .ladytext{
+      width:80%;
+      height:auto;
+    }   
+             /* footer start */
+    .footer .row{
+      margin: 0 3% 0 3%;
+    }
+    .col-lg-5 img{
+      width:20%;
+    }
+    .footer-img img{
+      width:calc(98.5%/3);
+    }
+              /* third section*/
+            
+    
+              .col-lg-4 .logo-text{
+                margin-top: 2%;
+                margin-bottom: 5%;
+              }
+
+   }
+    
+
+      /*width 900px */
+  
+  @media only screen and (max-width:900px){
+    .text h1{
+      font-size:37px;
+    }
+    .text p{
+      font-size:12px;
+    }
+
+           /*six pack */
+     .six-pack-text h4{
+        font-size:13px;
+      }
+      .six-pack-text h1{
+        font-size:22px;
+        margin: 3px 0 10px 0;
+      }
+    
+  }
+       /* width 857px */
+  @media only screen and (max-width:857px){
+    .hiden{
+      position: relative;
+      display: block;
+    }
+        /*costomer openions */
+    .costomer-images h1{
+      font-size: 2rem;
+    }
+    .costomer-images h5{
+      font-size: 1.4rem;
+    }
+    .costomer-images p{
+      font-size:1.2rem;
+    }
+    
+       
+  }
+        /* width 825px */
+
+  @media only screen and (max-width:833px){
+    
+    .navbar-nav li a{
+      font-size:12px;
+    }
+  }
+        /* width 790px */
+  @media only screen and (max-width:790px){
+    .navbar-nav li a{
+      font-size: 12px;
+    }
+    .item img{
+      width:100%;
+      height:100%;
+    }
+  }
+  /* width 777px */
+  @media only screen and (max-width:777px){
+    .footer-img img{
+      width:calc(98%/3);
+    }
+               /* six pack */
+    .six-pack-text h4{
+      text-align: center;
+    }
+    .six-pack-text h1{
+       text-align: center;
+     }
+     .six-pack-text p{
+      text-align: center;
+     }
+     .trainer-kg-smile span{
+        display: block;
+        font-size: 3.5rem;
+        margin-left:40px;
+     }
+     .trainer-kg-smile img{
+      width: 44px;
+      margin-left: 6.5rem;
+     }
+     .rating{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+     }
+     .trainer-kg-smile p{
+      text-align: center;
+     }
+        
+  }
+  
+      /* width 767.5px */
+  @media only screen and (max-width:767.5px){
+    .head{
+      display: none;
+    }
+    .logo-text .circal{
+      margin-left:43%;
+      width:7rem;
+    }
+          /* photo gallery */
+    .photo-gallery{
+      margin:0;
+    }
+    .gallery-pic .images{
+      width: calc(100% /1);
+    }
+        /*navbar start*/                 /*  ...............  */
+      
+        .navbar-nav{
+          background-color:rgba(0,0,0,.5);
+        }
+         nav{ 
+          width:100%;
+         }
+        .navbar-collapse ul{
+           width:100%;
+           margin:0;
+           display: block;
+           justify-content: center;
+        }
+        .navbar-collapse ul li{
+          width:30%;
+          padding-top: 10px;
+          text-align: center;
+          margin:0px auto 20px auto;
+        }
+        ul li a:after{
+          left:33%;
+        }
+        ul li a:hover:after{
+          width: 38%;
+        }        
+  
+  }
+
+  @media only screen and (max-width:640px){
+       /* gym lady */   
+    .gymlady{
+      width:100%;
+    } 
+    .lady-img{
+      filter: brightness(50%);
+    }
+    .ladytext{
+      width: auto;
+     margin: 0%;
+
+    }
+    .ladytext h1,h4,h5{
+      text-align: center;
+    }
+    .ladytext button{
+      display: block;
+      margin: auto;
+    }
+    .ladytext h1{
+      font-size: 2.5rem;
+    }
+
+    .navbar-collapse ul{
+      width:100%;
+      margin: 0;
+    }
+    
+  }
+       /* width 587px */
+  @media only screen and (max-width:587px){
+    .footer-img img{
+      width:calc(98.5%/2);
+    }
+    
+    .rating{
+      position: relative;
+      display: block;
+    }
+    .trainer-kg-smile {
+      margin-left: 30%;
+  }
+
+  /* third section */
+  .logo-text h1{
+    font-size: 2rem;
+  }
+  }
+
+
+  @media only screen and (max-width:520px){
+    .logo-text .circal{
+      margin-left:40%;
+      width:7rem;
+    }
+    
+  }
+
+  /* width 440 */
+  @media only screen and (max-width:440px){
+    .navbar-collapse ul li{
+      margin:0px auto 10px auto;
+      width:45%;
+    }
+  }
+
+  /* width 417px*/
+  @media only screen and (max-width:417px){
+    .footer-img img{
+      width:100%;
+    }
+
+    /* third section */
+  .logo-text h1,p{
+    text-align: center;
+  }
+  .third-section .row{
+  margin-left: 0;
+  }
+        /* ul */
+        ul li a:after{
+          content: "";
+          bottom: 0px;
+        }
+        ul{
+          height:auto;
+        }
+  
+
+  }

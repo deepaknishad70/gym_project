@@ -1,0 +1,191 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+.packagase-full{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0;
+}
+.bg-img{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("../gallery/gallery6.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+  .bg-img p{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.bg-img h6{
+    font-size: 1.5rem;
+}
+
+/* packeges */
+.packages{
+    padding: 0;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+}
+.packages .row{
+    height: auto;
+    margin:5vh 13% 5vh 13%;
+}
+.yell{
+    margin-left: 3%;
+    margin-right:3%;
+}
+.packages .box01{
+    width:31%;
+    height:auto;
+    display: inline-block;
+    position: relative;
+    box-shadow:0px 2px 8px 0px;
+}
+.box01 .green,.yellow{
+    width:100%;
+    height:auto;
+    background-color: rgb(129, 197, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.box01 .packages-top{
+    width:100%;
+    height: 25vh;
+}
+.box01 .packages-top .paddi{
+    margin:20px;
+}
+.green h1{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: bold;
+}
+.green span{
+    font-size: 5rem;
+    line-height: 4rem;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+.yellow{
+    background-color: rgb(255, 255, 102);
+}
+.yellow h1{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: bold;
+}
+.yellow span{
+    font-size: 5rem;
+    line-height: 4rem;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.box01-text p{
+    text-align: center;
+    padding-top: 18px;
+    font-size: 15px;
+}
+.box01-text button{
+    padding:10px 25px 10px 25px;
+    background-color: rgb(129, 197, 27);
+    border: none;
+    color:#fff;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5vh;
+}
+.box01-text .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.box01-text button a{
+    color:#fff;
+}
+.box01-text button:hover{
+    background-color: rgb(255, 255, 102);
+    color:black;
+    transition-duration: 1s;
+}
+.box01-text button:hover a{
+    color:black;
+    transition-duration: 1s;
+}
+/* media query */
+  @media only screen and (max-width:1250px){
+    .packages .row{
+        margin:5vh 10% 5vh 10%;
+}   
+}
+@media only screen and (max-width:1150px){
+    .packages .row{
+        margin:5vh 7% 5vh 7%;
+}   
+}
+
+@media only screen and (max-width:992px){
+    .packages .row{
+        margin:5vh 4% 5vh 4%;
+}   
+}
+@media only screen and (max-width:880px){
+    .packages .row{
+        margin:5vh 2% 5vh 2%;
+}   
+}
+@media only screen and (max-width:821px){
+    .packages .row{
+        margin:5vh 1% 5vh 1%;
+}   
+.packages .box01{
+    width:30.8%;
+    display: inline-block;
+}
+.box01-text button{
+    padding:9px 18px 9px 18px;
+    
+}
+}
+
+@media only screen and (max-width:660px){
+.packages .box01{
+    width:100%;
+    display: block;
+    margin-bottom: 5vh;
+}
+.box01-text button{
+    padding:10px 25px 10px 25px;   
+}
+.yell{
+    margin-left: 0%;
+    margin-right:0%;
+}   
+
+}
